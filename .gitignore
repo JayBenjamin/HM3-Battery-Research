@@ -1,0 +1,43 @@
+# Raw / oversized media (convert photos to compressed .jpg/.webp; host videos externally)
+*.dng
+*.DNG
+*.raw
+*.RAW
+*.mp4
+*.MP4
+*.mov
+*.MOV
+*.avi
+*.mkv
+
+# KiCad backups, locks & temporary files
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+fp-info-cache
+*.lck
+~*.lck
+
+# Firmware / PlatformIO / Arduino / ESP-IDF build outputs
+.pio/
+build/
+sdkconfig.old
+*.elf
+*.bin
+*.map
+
+# Python / HIL simulator
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# OS & Editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

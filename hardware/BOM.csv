@@ -1,0 +1,11 @@
+Category,Part / Component,Spec / Model,Qty (per 4S1P Pack),Status,Notes
+Cells,Samsung INR21700-50G,3.63V 5000mAh 9.7A cont / 4.85A max chg,4,On Hand (20x total),4S1P = ~72-74 Wh; 20 cells support up to five 4S1P banks
+Charging IC,IP2368 Bidirectional USB-C PD,4S Buck-Boost capped at 65W (~3.8A),1,Planned,Capped at 65W to stay inside Samsung 50G 1C charge limit
+Safety (Primary),Hardware 4S BMS Protection IC,OV >4.25V / UV <2.50V / OC / SC,1,Planned,Independent hardware protection stage
+Safety (Secondary),3-Terminal Thermal / Chemical Fuse,4S pack rail non-resettable failsafe,1,Planned,Last-resort hardware disconnect if FETs weld closed
+Isolation,Ideal-Diode OR-ing Controller,LM5050 / LTC4412 / LM74700-Q1 + MOSFET,1,Planned,Zero-backfeed dual-pack power sharing (per rail)
+Telemetry MCU,ESP32-S3 or M5Stack Module,XIAO ESP32-S3 / AtomS3R / StickC PLUS2,1,Evaluating,Wi-Fi/BLE + display + 6-axis IMU (QMI8658 / BMI270)
+Thermal Sensing,10kΩ NTC Thermistors,Cell core & connector thermal monitoring,2-4,Planned,Enforces 0C-45C charge gating & 60C discharge limit
+Power Connector,XT60 Male/Female,High-current general-purpose DC connector,1,Planned,Non-proprietary standard termination
+Digital Headers,4-Pin JST-GH / Grove + UART Header,I2C (V+/GND/SDA/SCL) + UART (TX/RX/GND),1,Planned,Non-proprietary standard digital telemetry bus
+Enclosure Material,PA-CF or ASA Filament,Carbon Fiber Reinforced Nylon + thermal liner,1,Planned (M6),Splash-proof daily shell + external IP68 shower housing
