@@ -33,17 +33,17 @@
 
 ## 3. Verified 7-Pad Gold Edge Connector Pinout
 
-*Pad numbering runs from top (`+`, Pad 1) to bottom (`-`, Pad 7) looking directly at the gold edge contact array.*
+*Pad numbering runs from top (`+`, Pad 1) to bottom (`-`, Pad 7) looking directly at the gold edge contact array. Measurements taken on a live, charged `Rev. L` pack.*
 
-| Pad # | Housing Marking | Dead Donors (`Rev. F`/`J`) | Live `Rev. L` (vs. Pad 1 `+`) | Live `Rev. L` (vs. Pad 7 `-`) | Verified Function |
-| :---: | :---: | :---: | :---: | :---: | :--- |
-| **1** | `+` | `0.000V` | `0V` (Ref) | `15–16V` | Main **`PACK+`** (A) |
-| **2** | *(Unmarked)* | `0.000V` | `0V` | `15–16V` | Paralleled **`PACK+`** (B) — **Confirmed** |
-| **3** | *(Unmarked)* | `0.000V` | `11V` | **`3V`** | **Active ~3.3V logic / sense / wake rail** (biased by BMS even undocked) |
-| **4** | *(Unmarked)* | `0.000V` | `9V` | **`0V`** | Passive / pulled-down line (matched pair with Pad 5 — likely SMBus `SCL` / `SDA`) |
-| **5** | *(Unmarked)* | `0.000V` | `9V` | **`0V`** | Passive / pulled-down line (matched pair with Pad 4 — likely SMBus `SCL` / `SDA`) |
-| **6** | *(Unmarked)* | `0.000V` | `15–16V` | `0V` | Paralleled **`PACK-`** (A) — **Confirmed** |
-| **7** | `-` | `0.000V` | `15–16V` | `0V` (Ref) | Main **`PACK-`** (B) |
+| Pad # | Housing Marking | Live `Rev. L` (vs. Pad 1 `+`) | Live `Rev. L` (vs. Pad 7 `-`) | Verified Function |
+| :---: | :---: | :---: | :---: | :--- |
+| **1** | `+` | `0V` (Ref) | `15–16V` | Main **`PACK+`** (A) |
+| **2** | *(Unmarked)* | `0V` | `15–16V` | Paralleled **`PACK+`** (B) — **Confirmed** |
+| **3** | *(Unmarked)* | `11V` | **`3V`** | **Active ~3.3V logic / sense / wake rail** (biased by BMS even undocked) |
+| **4** | *(Unmarked)* | `9V` | **`0V`** | Passive / pulled-down line (matched pair with Pad 5 — likely SMBus `SCL` / `SDA`) |
+| **5** | *(Unmarked)* | `9V` | **`0V`** | Passive / pulled-down line (matched pair with Pad 4 — likely SMBus `SCL` / `SDA`) |
+| **6** | *(Unmarked)* | `15–16V` | `0V` | Paralleled **`PACK-`** (A) — **Confirmed** |
+| **7** | `-` | `15–16V` | `0V` (Ref) | Main **`PACK-`** (B) |
 
 ### Multimeter Sweep Videos (`Commercial Electric BMM-8132R`, DC Voltage `V⎓`)
 
