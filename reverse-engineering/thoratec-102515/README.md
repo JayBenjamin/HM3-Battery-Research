@@ -22,15 +22,13 @@
 
 ## 2. Bench Hardware Reference Photos
 
-- **Donor 3 — `ML031100` (2011-01, `Rev. F`):**  
-  ![Donor 3 — ML031100 (2011-01, Rev. F)](images/PXL_20261122_222621726.RAW-01.jpg)
-- **Donor 4 — `MP143287` (2015-05-23, `Rev. J` & 7-Pad Array):**  
-  ![Donor 4 — MP143287 (2015-05-23, Rev. J & 7-Pad Array)](images/PXL_20261123_061827856.RAW-01.jpg)
-- **Donor 1 — `MP181820` (2015-06-30, `Rev. J`):**  
-  ![Donor 1 — MP181820 (2015-06-30, Rev. J)](images/PXL_20261122_222634678.RAW-01.jpg)
-- **Donor 2 — `SQ354404` (2016-12-19, `Rev. J`):**  
-  ![Donor 2 — SQ354404 (2016-12-19, Rev. J)](images/PXL_20261122_222628649.RAW-01.jpg)
+*(Click any photo to view full resolution.)*
 
+| Donor 3 — `ML031100` (`Rev. F`) | Donor 4 — `MP143287` (`Rev. J` & 7-Pad Array) |
+| :---: | :---: |
+| <img src="/images/PXL_20261122_222621726.RAW-01.jpg" alt="Donor 3 — ML031100" width="300"><br><sub>2011-01 • Primary Teardown Target</sub> | <img src="/images/PXL_20261123_061827856.RAW-01.jpg" alt="Donor 4 — MP143287" width="300"><br><sub>2015-05-23 • 7-Pad Connector View</sub> |
+| **Donor 1 — `MP181820` (`Rev. J`)** | **Donor 2 — `SQ354404` (`Rev. J`)** |
+| <img src="/images/PXL_20261122_222634678.RAW-01.jpg" alt="Donor 1 — MP181820" width="300"><br><sub>2015-06-30 • Intact Reference</sub> | <img src="/images/PXL_20261122_222628649.RAW-01.jpg" alt="Donor 2 — SQ354404" width="300"><br><sub>2016-12-19 • Intact Reference</sub> |
 ---
 
 ## 3. Verified 7-Pad Gold Edge Connector Pinout

@@ -15,6 +15,7 @@ Contemporary FDA-cleared portable medical equipment (AEDs, transport ventilators
 | **USB-C PD Target** | **Capped at `65W` (`~3.8A` at `16.8V`)** | Supports full `100W` (`~6A`) fast charging |
 | **Bench Status** | **20x cells on hand** (`SAMSUNG SDI 2M32`, `3.518V` resting) | Future optional variant |
 
+<img src="/images/PXL_20261122_062655089.RAW-01.jpg" alt="Samsung INR21700-50G Cell Wrapper & 3.518V Mark" width="300">
 ---
 
 ## 3. Microcontroller & Telemetry Platform Evaluation (Open)
