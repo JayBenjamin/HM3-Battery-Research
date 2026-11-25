@@ -66,3 +66,12 @@ Five FDA recalls and one ESD advisory across the surrounding power chain highlig
 | **Charger bay liquid ingress / fires** (`FOI 17221255`, `22815939`) | Open-top multi-bay desktop dock pools spilled liquids across live high-energy contacts. | Eliminate open-bay docks; use enclosed bidirectional `USB-C PD` (`IP2368`, capped at `65W` for `Samsung 50G`) or enclosed single-channel cell chargers. |
 | **Opaque BMS lockouts (`b0003` / `b0013`)** (`FOI 23367171`, `23948668`) | Potted/sealed pack hides per-cell health until permanent BMS lockout occurs. | Swappable `21700` cells (no permanent epoxy over cells) + real-time MCU telemetry exposing per-cell voltage, shunt current, internal resistance, and cycle health. |
 | **MPU / wall-power single-point drops** (`Z-1570-2025`, `Z-2290-2025`) | Reliance on AC wall brick without traction battery reserve. | Dual-pack Ideal-Diode OR-ing (`LM5050` / `LTC4412`) for zero-drop, zero-backfeed power redundancy. |
+
+## Controller SKUs, Modular Cable & Configuration Notes
+
+* **REF 106762 (HeartMate II System Controller Kit):** Includes the HeartMate II Pocket System Controller and `REF 106128` 11V backup battery; does not include a driveline (driveline is permanently attached to the implanted pump).
+* **REF 106015 (HeartMate II LVAS Implant Kit):** Surgical implant kit containing the axial blood pump (`REF 10006662`), Pocket System Controller, `REF 106128` 11V backup battery, GoGear wearable kit (`REF 106129` with `Model 2865` clips), and surgical grafts.
+* **REF 106525US (HeartMate 3 VAD Modular Cable):** Field-replaceable external driveline segment (duplicate 3-conductor power/ground/serial sets) mating the implanted Pump Cable to the System Controller.
+* **REF 106531LF2 vs. 106531US (`Low Flow 2.0` Variant):** The `Low Flow 2.0` controller SKU hardcodes a `2.0 LPM` Low Flow alarm floor versus `2.5 LPM` on standard `106531US` units; unconfirmed threshold dates on historical logs must be recorded as unknown rather than assumed.
+* **REF 1275 / HeartWare REF 100US:** Incompatible legacy/other-platform parts (`REF 1275` 12V HeartMate I/XVE controller and recalled Medtronic HeartWare `100US` HVAD extension cable).
+* **Write/Commit & Dual-Controller Sync:** Configuration edits (`Fixed Speed`, `Low Speed Limit`, `Hematocrit` manual viscosity input, `Date & Time`, and periodic log intervals) require explicit `APPLY` commits and must be applied across both primary and backup controllers.
