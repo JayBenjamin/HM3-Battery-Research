@@ -5,3 +5,11 @@
 * `daily-splash-shell/` — Gasketed `PA-CF` / `ASA` everyday shell with swappable `21700` cell access and recessed `XT60` / `USB-C` ports.
 * `ip68-shower-housing/` — Rigid external `IP68` ("scuba gear") waterproof over-housing with sealed cable pass-throughs.
 * `thermal-liners/` — Internal cell isolation channels and passive thermal insulation liners.
+
+## Safety
+
+See [SAFETY.md](../../SAFETY.md).
+
+## How to Build / Run This
+
+Not yet available.

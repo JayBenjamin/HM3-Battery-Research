@@ -26,9 +26,9 @@
 
 | Donor 3 — `ML031100` (`Rev. F`) | Donor 4 — `MP143287` (`Rev. J` & 7-Pad Array) |
 | :---: | :---: |
-| <img src="/images/PXL_20261122_222621726.RAW-01.jpg" alt="Donor 3 — ML031100" width="300"><br><sub>2011-01 • Primary Teardown Target</sub> | <img src="/images/PXL_20261123_061827856.RAW-01.jpg" alt="Donor 4 — MP143287" width="300"><br><sub>2015-05-23 • 7-Pad Connector View</sub> |
+| <img src="../../images/thoratec-102515_donor3-ml031100-revf_front_01.jpg" alt="Donor 3 — ML031100" width="300"><br><sub>2011-01 • Primary Teardown Target</sub> | <img src="../../images/thoratec-102515_donor4-mp143287-pad-array_front_01.jpg" alt="Donor 4 — MP143287" width="300"><br><sub>2015-05-23 • 7-Pad Connector View</sub> |
 | **Donor 1 — `MP181820` (`Rev. J`)** | **Donor 2 — `SQ354404` (`Rev. J`)** |
-| <img src="/images/PXL_20261122_222634678.RAW-01.jpg" alt="Donor 1 — MP181820" width="300"><br><sub>2015-06-30 • Intact Reference</sub> | <img src="/images/PXL_20261122_222628649.RAW-01.jpg" alt="Donor 2 — SQ354404" width="300"><br><sub>2016-12-19 • Intact Reference</sub> |
+| <img src="../../images/thoratec-102515_donor1-mp181820-revj_front_01.jpg" alt="Donor 1 — MP181820" width="300"><br><sub>2015-06-30 • Intact Reference</sub> | <img src="../../images/thoratec-102515_donor2-sq354404-revj_front_01.jpg" alt="Donor 2 — SQ354404" width="300"><br><sub>2016-12-19 • Intact Reference</sub> |
 ---
 
 ## 3. Verified 7-Pad Gold Edge Connector Pinout

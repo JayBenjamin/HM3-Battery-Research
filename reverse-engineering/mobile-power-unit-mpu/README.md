@@ -1,6 +1,6 @@
 # Mobile Power Unit (MPU) — Connector, Power Baseline & Teardown Plan
 
-**Status:** In Progress (Milestone 2 → Milestone 3)
+**Status:** In Progress
 
 ## 1. Verified Physical Findings
 - **MPU Leads (Black & White Cables):** Fully populated **10-pin D-keyed circular connectors** with orange O-ring seals (**5 male pins** on the top half, **5 female sockets** on the bottom half).
@@ -14,7 +14,7 @@
 
 | Dual Port Housing (White & Black) | White Port (Macro) | Black Port (Macro) |
 | :---: | :---: | :---: |
-| <img src="/images/PXL_20261122_180204939.RAW-01.jpg" alt="MPU Dual Port Housing" width="250"><br><sub>Side-by-side White & Black D-keyed ports</sub> | <img src="/images/PXL_20261122_180213166.RAW-01.jpg" alt="MPU White Port Macro" width="250"><br><sub>5 top male pins + 5 bottom female sockets</sub> | <img src="/images/PXL_20261122_180219825.RAW-01.jpg" alt="MPU Black Port Macro" width="250"><br><sub>5 top male pins + 5 bottom female sockets</sub> |
+| <img src="../../images/mpu_dual-port-housing_wide_01.jpg" alt="MPU Dual Port Housing" width="250"><br><sub>Side-by-side White & Black D-keyed ports</sub> | <img src="../../images/mpu_white-port-10pin_macro_01.jpg" alt="MPU White Port Macro" width="250"><br><sub>5 top male pins + 5 bottom female sockets</sub> | <img src="../../images/mpu_black-port-10pin_macro_01.jpg" alt="MPU Black Port Macro" width="250"><br><sub>5 top male pins + 5 bottom female sockets</sub> |
 
 ---
 

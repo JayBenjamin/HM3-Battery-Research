@@ -77,3 +77,14 @@ HM3-Battery-Research/
 * **Prior Emergency & Off-Grid Power Research:** [HeartMate 3 Power Survival Guide: Solutions for LVAD Emergencies & Off-Grid Living](https://jbbenjamin.com/heartmate-3-power-survival-guide-solutions-for-lvad-emergencies-off-grid-living/) (empirical `4,900 RPM` MPU & UBC watt-meter baselines and tiered outage backup guide).
 * **No Commercial Hardware Sales:** This project does not sell assembled battery packs, medical accessories, or lithium-ion cells. All designs use standard general-purpose terminations (**XT60**, **4-pin JST-GH / Grove I²C** + **UART**, **USB-C PD**).
 * **Support Open-Source R&D:** Bench instrumentation, surplus teardowns, and destructive safety testing are self-funded and supported solely by voluntary community contributions via the [Square R&D Fund](https://square.link/u/YXz3dqBN).
+
+## Runtime Reconciliation (Option A)
+
+- **AC Wall Baseline:** `6.47 W` average (`5.48 W - 7.46 W` typical; `10.15 W` initial connection spike) at `4,900 RPM` on AC watt meter.
+- **DC Load Basis:** `8.0 W` DC mixed-activity planning draw (`~5.5 W` DC resting equivalent derived from `6.47 W` AC with `0.85` MPU supply efficiency and controller overhead accounted for).
+- **Formula:** `Runtime_h = (Wh * 0.90) / 8.0 W` -> `~8.1-8.4 hrs` for a single `72-74 Wh` `4S1P Samsung INR21700-50G` pack and `~16.2-16.8 hrs` for dual `4S1P` packs.
+
+## Populated vs. Planned Folders
+
+- **Active content so far:** `docs/`, `reverse-engineering/`, and `images/`.
+- **Planned stubs:** `hardware/`, `firmware/`, `enclosure/`, `hil-simulator/`, `scans/`, and `research/`.

@@ -20,3 +20,9 @@ When operating the automated Hardware-in-the-Loop (HIL) simulator:
 1. **Hard-Coded SCPI Load Clamps:** Remote web inputs are clamped in the Python controller (e.g., `12W–15W` max continuous draw, queued 60-second slots). Raw amperage or dead-short commands are never exposed.
 2. **Fireproof Containment:** Test packs run inside a vented steel / fireproof enclosure with a polycarbonate viewing window for the IP/NDI camera.
 3. **Independent Hardware Cutoff Relay:** A standalone thermal relay physically disconnects the load above **`60°C`**, independent of software or MCU state.
+
+## Milestone 5 Public Remote-Controlled Rig
+
+- **Unattended Operation Policy:** No unattended overnight remote runs; require bounded active sessions inside fireproof containment.
+- **Controller Watchdog:** Drop load to safe off-state if the web controller stops responding or misses heartbeats.
+- **Smoke & Heat Cutoff:** Dedicated smoke/heat detection tied to a hardware cutoff relay in addition to the `60 C` hardware thermal cutoff relay.

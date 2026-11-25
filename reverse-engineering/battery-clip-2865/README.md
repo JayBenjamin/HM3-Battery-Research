@@ -1,6 +1,6 @@
 # Model 2865 14V Battery Clip — Connector & Continuity Log
 
-**Status:** In Progress (Milestone 2 — Visual Inspection Only; Electrical Continuity Testing Pending)
+**Status:** In Progress
 
 ## 1. Verified Physical Findings
 - **Circular Cable Port:** Uses the same **10-position D-keyed circular shell** and orange O-ring seal as the Mobile Power Unit (MPU) power leads.
@@ -16,9 +16,9 @@
 
 | Circular Cable Port (Wide View) | Internal 7-Blade Bay (Wide View) |
 | :---: | :---: |
-| <img src="/images/PXL_20261122_174851259.RAW-01.jpg" alt="Model 2865 Circular Port Wide" width="300"><br><sub>D-keyed shell, orange O-ring & 5 populated contacts</sub> | <img src="/images/PXL_20261122_174904881.RAW-01.jpg" alt="Model 2865 Internal Bay Wide" width="300"><br><sub>7-blade contact array & internal bay housing</sub> |
+| <img src="../../images/clip-2865_circular-port_wide_01.jpg" alt="Model 2865 Circular Port Wide" width="300"><br><sub>D-keyed shell, orange O-ring & 5 populated contacts</sub> | <img src="../../images/clip-2865_7-blade-bay_wide_01.jpg" alt="Model 2865 Internal Bay Wide" width="300"><br><sub>7-blade contact array & internal bay housing</sub> |
 | **Circular Cable Port (Macro)** | **Internal 7-Blade Contacts (Macro)** |
-| <img src="/images/PXL_20261122_175011799.RAW-01.jpg" alt="Model 2865 Circular Port Macro" width="300"><br><sub>1 top-center male pin + 4 bottom female sockets</sub> | <img src="/images/PXL_20261122_175026441.RAW-01.jpg" alt="Model 2865 7-Blade Contacts Macro" width="300"><br><sub>Close-up of 7 gold blades mating to 102515 pads</sub> |
+| <img src="../../images/clip-2865_circular-port_macro_01.jpg" alt="Model 2865 Circular Port Macro" width="300"><br><sub>1 top-center male pin + 4 bottom female sockets</sub> | <img src="../../images/clip-2865_7-blade-contacts_macro_01.jpg" alt="Model 2865 7-Blade Contacts Macro" width="300"><br><sub>Close-up of 7 gold blades mating to 102515 pads</sub> |
 
 ---
 

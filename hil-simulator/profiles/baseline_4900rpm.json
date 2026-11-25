@@ -1,0 +1,8 @@
+﻿{
+  "profile_name": "baseline_4900rpm_mixed",
+  "dc_load_watts": 8.0,
+  "ac_wall_reference_watts": 6.47,
+  "pulse_period_s": 2.0,
+  "watchdog_timeout_s": 5.0,
+  "max_temp_c": 60.0
+}

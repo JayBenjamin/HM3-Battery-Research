@@ -75,3 +75,7 @@ Five FDA recalls and one ESD advisory across the surrounding power chain highlig
 * **REF 106531LF2 vs. 106531US (`Low Flow 2.0` Variant):** The `Low Flow 2.0` controller SKU hardcodes a `2.0 LPM` Low Flow alarm floor versus `2.5 LPM` on standard `106531US` units; unconfirmed threshold dates on historical logs must be recorded as unknown rather than assumed.
 * **REF 1275 / HeartWare REF 100US:** Incompatible legacy/other-platform parts (`REF 1275` 12V HeartMate I/XVE controller and recalled Medtronic HeartWare `100US` HVAD extension cable).
 * **Write/Commit & Dual-Controller Sync:** Configuration edits (`Fixed Speed`, `Low Speed Limit`, `Hematocrit` manual viscosity input, `Date & Time`, and periodic log intervals) require explicit `APPLY` commits and must be applied across both primary and backup controllers.
+
+## AC vs. DC Load Reconciliation (Option A)
+
+- `6.47 W` is an **AC wall** figure (includes MPU conversion losses); `~5.5 W` DC represents resting load (`6.47 W` AC basis with `0.85` supply efficiency and controller overhead accounted for), while `8.0 W` DC is the mixed-activity runtime baseline (`Runtime_h = (Wh * 0.90) / 8.0 W`).

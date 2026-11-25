@@ -1,6 +1,6 @@
 # AI Hemodynamic Hardware-in-the-Loop (HIL) Test Bench
 
-**Status:** Planned (Milestone 5)
+**Status:** Planned
 
 An automated, live-streamed bench rig that validates the open-source `4S1P 21700` battery under realistic pump load profiles without touching clinical hardware.
 
@@ -16,3 +16,13 @@ An automated, live-streamed bench rig that validates the open-source `4S1P 21700
 * **0.5 Hz Pulse Modulation:** Emulate a `2.00 s` period (`0.15 s` trough, `0.20 s` peak, `1.65 s` baseline dwell) while polling `I2C` current/voltage sensors fast enough (`>= 20–30 Hz`) to avoid aliasing edges.
 * **PI Event & Ramp-Back Transients:** Script step-downs to `Low Speed Limit` followed by controlled recovery ramps (`100 RPM/s` reference rate on HM3) to test estimator and rail tracking during non-stationary loads.
 * **Failover & Hot-Swap Vectors:** Test single-pack `XT60` hot-swap disconnects across Ideal-Diode OR-ing (`LM5050` / `LTC4412` / `LM74700-Q1`) and dual-rail disconnects onto a `3S` (`11.1V` nominal) backup rail (`>= 15 min` full-load window followed by `Power-Saver` step-down).
+
+## How to Build / Run This
+
+Not yet available.
+
+## Milestone 5 Public Remote-Controlled Rig Guardrails
+
+- **Unattended Operation Policy:** No unattended overnight remote runs; require bounded active sessions inside fireproof containment.
+- **Controller Watchdog:** Drop load to safe off-state if the web controller stops responding or misses heartbeats.
+- **Smoke & Heat Cutoff:** Dedicated smoke/heat detection tied to a hardware cutoff relay in addition to the `60 C` hardware thermal cutoff relay.

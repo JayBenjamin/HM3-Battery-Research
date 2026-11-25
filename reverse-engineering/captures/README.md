@@ -1,6 +1,6 @@
 # Logic Analyzer & Protocol Captures
 
-**Status:** Planned (Milestone 3)
+**Status:** Planned
 
 This directory will store `PulseView` / `Saleae` (`.sr` / `.sal`) captures and decoded CSV frames for:
 * `100 kHz` SMBus / I²C (`0x0B` Smart Battery Data) traffic on `Thoratec 102515` Pads 4 & 5.
