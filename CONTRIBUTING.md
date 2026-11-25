@@ -1,7 +1,7 @@
 # Contributing & Bench Workflow
 
 ## Support Open-Source R&D
-Bench instrumentation, surplus teardowns, 3D scan/CAD work, and destructive safety testing are self-funded and supported solely by voluntary community contributions via the **[Square R&D Fund](https://square.link/u/YXz3dqB6)** (no commercial hardware sales; personal receipts and Square ledger accounting remain private).
+Bench instrumentation, surplus teardowns, 3D scan/CAD work, and destructive safety testing are self-funded and supported solely by voluntary community contributions via the **[OpenHeart Research Fund](https://square.link/u/YXz3dqBN)** (no commercial hardware sales; personal receipts and ledger accounting remain private).
 
 ## Project Needs & How You Can Help
 - **3D Scanning & Printing:** Help capture or clean `.STL` / `.OBJ` / `.STEP` Scans of surplus housings, clips, and connectors (`scans/`), or test-print prototype shells/holders/mounts (`enclosure/`).

@@ -76,7 +76,7 @@ HM3-Battery-Research/
 
 * **Prior Emergency & Off-Grid Power Research:** [HeartMate 3 Power Survival Guide: Solutions for LVAD Emergencies & Off-Grid Living](https://jbbenjamin.com/heartmate-3-power-survival-guide-solutions-for-lvad-emergencies-off-grid-living/) (empirical `4,900 RPM` MPU & UBC watt-meter baselines and tiered outage backup guide).
 * **No Commercial Hardware Sales:** This project does not sell assembled battery packs, medical accessories, or lithium-ion cells. All designs use standard general-purpose terminations (**XT60**, **4-pin JST-GH / Grove I²C** + **UART**, **USB-C PD**).
-* **Support Open-Source R&D:** Bench instrumentation, surplus teardowns, and destructive safety testing are self-funded and supported solely by voluntary community contributions via the [Square R&D Fund](https://square.link/u/YXz3dqBN).
+* **Support Open-Source R&D:** Bench instrumentation, surplus teardowns, and destructive safety testing are self-funded and supported solely by voluntary community contributions via the [OpenHeart Research Fund](https://square.link/u/YXz3dqBN).
 
 ## Runtime Reconciliation (Option A)
 
